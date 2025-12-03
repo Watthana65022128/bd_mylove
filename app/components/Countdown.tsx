@@ -48,8 +48,9 @@ export default function Countdown({ onComplete }: CountdownProps) {
     return (
       <div className="relative animate-fade-in">
         <div className="text-center">
-          <div className="w-64 h-64 mx-auto relative flex items-center justify-center">
+          <div className="w-64 h-64 mx-auto relative flex flex-col items-center justify-center">
             <span className="text-8xl font-bold text-pink-500">27</span>
+            <span className="text-2xl font-semibold text-pink-400 mt-2">December</span>
           </div>
           <button
             onClick={handleStart}
@@ -57,7 +58,7 @@ export default function Countdown({ onComplete }: CountdownProps) {
                        font-semibold text-xl shadow-lg hover:shadow-xl transform
                        hover:scale-105 transition-all duration-300"
           >
-            Start Countdown
+            Start
           </button>
           <p className="mt-4 text-xl text-pink-500 text-center animate-pulse">
             Click to begin...

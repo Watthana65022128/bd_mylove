@@ -56,7 +56,7 @@ export default function PhotoGallery({
     {
       id: 8,
       imagePath: "/photos/8.jpg",
-      message: "2นิ้วอีกละ",
+      message: "2นิ้ว",
     },
     {
       id: 9,

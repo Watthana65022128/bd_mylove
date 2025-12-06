@@ -127,7 +127,7 @@ export default function GiftBox({ onOpen }: GiftBoxProps) {
 
       {/* Instruction Text */}
       <p className="mt-8 text-xl md:text-2xl text-pink-500 text-center animate-bounce">
-        Click to open🎉
+        ของขวัญนี้มอบให้คุณสุณัฐชา🎉
       </p>
     </div>
   )

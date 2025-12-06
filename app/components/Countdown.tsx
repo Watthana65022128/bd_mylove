@@ -58,11 +58,8 @@ export default function Countdown({ onComplete }: CountdownProps) {
                        font-semibold text-xl shadow-lg hover:shadow-xl transform
                        hover:scale-105 transition-all duration-300"
           >
-            Start
+            กดปุ่มนี้
           </button>
-          <p className="mt-4 text-xl text-pink-500 text-center animate-pulse">
-            Click to begin...
-          </p>
         </div>
       </div>
     )
@@ -107,7 +104,7 @@ export default function Countdown({ onComplete }: CountdownProps) {
       </div>
 
       <p className="mt-4 text-xl text-pink-500 text-center animate-pulse">
-        Getting ready for something special...
+        รู้นะว่าแอบตื่นเต้น
       </p>
     </div>
   )

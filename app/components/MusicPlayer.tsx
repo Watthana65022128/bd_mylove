@@ -76,7 +76,7 @@ export default function MusicPlayer({
           {isMusicPlaying ? "Now Playing..." : "Music"}
         </span>
         <span className="text-pink-400 text-xs">
-          {isMusicPlaying ? "" : "Click to play"}
+          {isMusicPlaying ? "คู่ชีวิต" : "กดเพื่อเล่นเพลง"}
         </span>
       </div>
 

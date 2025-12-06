@@ -32,25 +32,25 @@ export default function PhotoNavigation({
       <button
         onClick={onPrevious}
         disabled={isFirstPhoto}
-        className="px-6 py-3 bg-pink-500 hover:bg-pink-600 text-white rounded-full
+        className="px-6 py-2 bg-pink-500 hover:bg-pink-600 text-white rounded-full
                    font-semibold disabled:bg-gray-300 disabled:cursor-not-allowed
                    disabled:hover:scale-100 transform hover:scale-105 transition-all
                    duration-300 shadow-lg hover:shadow-xl"
         aria-label="Previous photo"
       >
-        ← Previous
+        ⇦
       </button>
 
       <button
         onClick={onNext}
         disabled={isLastPhoto}
-        className="px-6 py-3 bg-pink-500 hover:bg-pink-600 text-white rounded-full
+        className="px-6 py-2 bg-pink-500 hover:bg-pink-600 text-white rounded-full
                    font-semibold disabled:bg-gray-300 disabled:cursor-not-allowed
                    disabled:hover:scale-100 transform hover:scale-105 transition-all
                    duration-300 shadow-lg hover:shadow-xl"
         aria-label="Next photo"
       >
-        Next →
+       ⇨
       </button>
     </div>
   )

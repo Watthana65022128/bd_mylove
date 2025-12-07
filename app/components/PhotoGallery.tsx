@@ -75,7 +75,7 @@ export default function PhotoGallery({
     setTimeout(() => {
       setCurrentIndex(newIndex)
       setIsTransitioning(false)
-    }, 300)
+    }, 100)
   }
 
   const handlePrevious = () => {

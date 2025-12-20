@@ -21,7 +21,7 @@ export default function PhotoGallery({
     {
       id: 1,
       imagePath: "/photos/1.jpg",
-      message: "้21🎂",
+      message: "21🎂",
     },
     {
       id: 2,

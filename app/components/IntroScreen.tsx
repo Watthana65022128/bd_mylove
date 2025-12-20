@@ -15,8 +15,7 @@ export default function IntroScreen({
         {/* Title */}
         <h1 className="text-5xl md:text-7xl font-bold text-pink-600 animate-pulse">
           Happy birthday, my love.
-        </h1>
-
+        </h1>                  
         {/* Countdown Component */}
         <Countdown onComplete={onCountdownComplete} />
       </div>
